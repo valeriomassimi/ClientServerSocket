@@ -8,5 +8,12 @@
 
 
 int main(int argc, char *argv[]){
+    int sockfd, newsockfd, portno;
+     socklen_t clilen;
+     char buffer[256];
+     struct sockaddr_in serv_addr, cli_addr;
+     int n;
+     char  myport[] = "80802";
+    printf ("try to bind port: %s \n", myport);
     
 }
